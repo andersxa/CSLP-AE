@@ -151,3 +151,6 @@ The following arguments are only available for `conversion_data.py`:
 The following arguments are only available for `conversion_data_no_wandb.py`:
 - ```--results_save_dir```: Save directory to use. Default: './'.
 - ```--model_save_dir```: Model save directory to use. Default: './'.
+
+  # Acknowledgments and Disclosure of Funding
+  Funding in direct support of this work: Lundbeck Foundation grant R347-2020-2439.
