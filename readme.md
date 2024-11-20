@@ -104,11 +104,11 @@ For the quadruplet permutation loss from the supplementary materials, both ```--
 Training requires up to 14 GB of VRAM depending on the losses enabled.
 To train a *CSLP-AE* model run the following command:
 ```bash
-python train.py --sub_contra_s_enabled 1 --task_contra_t_enabled 1 --restored_permute_s_enabled 1 --restored_permute_t_enabled 1
+python train.py --sub_contra_s_enabled 1 --task_contra_t_enabled 1 --latent_permute_s_enabled 1 --latent_permute_t_enabled 1
 ```
 To train a *SLP-AE* model run the following command:
 ```bash
-python train.py --restored_permute_s_enabled 1 --restored_permute_t_enabled 1
+python train.py --latent_permute_s_enabled 1 --latent_permute_t_enabled 1
 ```
 To train a *C-AE* model run the following command:
 ```bash
